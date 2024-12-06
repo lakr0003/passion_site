@@ -1,0 +1,165 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/************** forside ***************/
+
+/*****' hero section ****************/
+.dj {
+  width: 50%;
+  height: auto;
+}
+@media (min-width: 800px) {
+  .hero {
+    padding-inline: 15%;
+  }
+}
+.baggrund {
+  position: relative;
+  background-image: url(billede/sorthvid.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 430px;
+}
+.tekst {
+  font-size: 2rem;
+  color: purple;
+  padding-left: 8%;
+  padding-top: 45%;
+  font-weight: 900;
+  font-style: italic;
+}
+@media (min-width: 800px) {
+  .baggrund {
+    background-image: url(billede/sorthvid.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 2rem;
+  }
+  .tekst {
+    font-size: 4rem;
+    color: purple;
+    padding-left: 10%;
+    padding-top: 30%;
+    font-weight: 900;
+    font-style: italic;
+  }
+}
+@media (min-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+.grid1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#billede2 {
+  background-image: url(billede/forfrasorthvid.jpg);
+  height: 250px;
+  background-size: cover;
+  object-fit: cover;
+}
+#billede3 {
+  background-image: url(billede/kvadrat3.jpg);
+  height: 250px;
+  background-size: cover;
+  object-fit: cover;
+}
+#billede4 {
+  background-image: url(billede/kvadrat5.jpg);
+  height: 250px;
+  background-size: cover;
+  object-fit: cover;
+}
+#billede5 {
+  background-image: url(billede/sorthvidbagfra.jpg);
+  height: 250px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media (min-width: 800px) {
+  #billede2 {
+    background-image: url(billede/sorthvidhigh.jpg);
+    height: 610px;
+    background-size: cover;
+    object-fit: cover;
+    align-self: stretch;
+    grid-row: 1/3;
+  }
+  #billede3 {
+    background-image: url(billede/3.jpg);
+    height: 300px;
+    object-fit: cover;
+    background-size: cover;
+    grid-column: 2/4;
+  }
+  #billede4 {
+    background-image: url(billede/kvadrat5.jpg);
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+  }
+  #billede5 {
+    background-image: url(billede/sorthvidbagfra.jpg);
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+.grid_video {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  object-fit: cover;
+}
+.video {
+  width: 100%;
+  height: 100%;
+}
+.video2 {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .grid_video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .video {
+    width: 100%;
+    height: 100%;
+  }
+  .video2 {
+    width: 100%;
+    height: 100%;
+  }
+}
